@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>단계별 영어 단어 퀴즈</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    .stage {
+      display: none; /* 초기에는 모든 단계를 보이지 않음 */
+    }
+    .stage.active {
+      display: block; /* active 클래스가 있는 단계만 보임 */
+    }
+    .question {
+      margin: 15px 0;
+    }
+    .btn-area {
+      margin-top: 20px;
+    }
+    button {
+      margin-right: 10px;
+      padding: 8px 16px;
+    }
+    input[type="text"] {
+      width: 120px;
+      padding: 4px;
+    }
+    /* 보기(라디오, 체크박스) 꾸미기 예시 */
+    label {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>단계별 영어 단어 퀴즈</h1>
+<p>아래 단계를 순서대로 진행해보세요
